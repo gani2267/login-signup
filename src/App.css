@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+/***    General     ***/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, #3f5efb, #fc466b);
+}
+
+
+.m-5-auto {
+    margin: 5rem auto;
+}
+
+.primary-button {
+    margin-top: 5rem;
+    margin-right: 1rem;
+    padding: .6rem;
+    width: 10rem;
+    background: #222;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all .5s;
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 2rem;
+}
+/* checkbox */
+input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+       -moz-appearance: checkbox;
+            appearance: checkbox;
+    display: inline-block;
+    width: auto;
+    color:#fc466b;
+  }
+  
+/***    Landing Page     ***/
+.main-title,
+.main-para {
+    color: #f1f1f1;
+}
+
+.main-title {
+    padding-top: 10rem;
+    font-size: 5rem;
+    font-family: 'Fascinate', cursive;
+    text-transform: uppercase;
+}
+
+.main-para {
+    font-size: 2.5rem;
+    text-Transform: capitalize;
+}
+
+#reg_btn span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#reg_btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#reg_btn:hover span {
+  padding-right: 25px;
+}
+
+#reg_btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/***    Login Page     ***/
+h2 {
+    font-weight: 300;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+form {
+    display: inline-block;
+    background: rgba(255,255,255, 0.06);
+    /* border: 1px solid #ddd; */
+    /* border-radius: 2px; */
+    border-radius: 20px;
+    border-left: 1px solid rgba(255,255,255, 0.3);
+    border-top: 1px solid rgba(255,255,255, 0.3);
+    text-align: center;
+    position: relative;
+    padding: 5rem;
+    margin: 2rem 0 1rem 0;
+    padding-bottom: 7rem;
+    transition: all 0.2s ease-in-out;
+}
+
+form label {
+    float: left;
+    font-size: .9rem;
+    margin: 0;
+    padding: 0;
+    margin-right: 6rem;
+}
+
+.right-label {
+    float: right;
+    cursor: pointer;
+    color: #f1f1f1;
+}
+
+input {
+    width: 20rem;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    /* background-color:red; */
+    opacity: 0.5;
+    margin-bottom: 1rem;
+  
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(0, 0, 0);
+    /* opacity: 0.5; */
+    
+  
+  }
+#sub_btn {
+    display: block;
+    width: 50%;
+    font-size: 1.3rem;
+    padding: .5rem;
+    border: none;
+    background: rgba(255,255,255, 0.06);
+    color: #fff;
+    border-radius: 2rem;
+    margin-left: 4.5rem;
+}
+
+#text:hover {
+    background:rgba(255,255,255, 0.06);
+    transition: all .5s
+}
+#sub_btn:hover {
+    background:rgba(255,255,255, 0.06);
+    transition: all .5s
+}
+
+footer p {
+    margin: 0;
+    font-size: .9rem;
+    margin-top: 1rem;
+    
+}
+footer a{
+    color: #f1f1f1;
+}
+/***    Register Page     ***/
+#checkbox {
+    width: 1rem
+}
+
+form span {
+    font-size: .8rem;
+    margin-right : 10rem;
+}
+
+#reset_pass_lbl {
+    float: left
+}
+
+/***    Home Page     ***/
+.home-page-title {
+    color: #222
+}
+
+.heading{
+    font-size: 2rem;
+}
+
+.login{
+    color:white;
+}
+
+.landing-buttons{
+    margin-top: 3rem;
+    margin-right: 1rem;
+    padding: .6rem;
+    width: 10rem;
+    background: rgba(255,255,255, 0.06);
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all .5s;
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 2rem;
+    margin-left: 0rem;
+}
+.landing-buttons1{
+    margin-top: 3rem;
+    margin-right: 1rem;
+    padding: .6rem;
+    width: 10rem;
+    background: rgba(255,255,255, 0.06);
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all .5s;
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 2rem;
+    margin-left: 70rem;
+}
+
+.heading1{
+    color: #f1f1f1;
+    font-size: 20rem;
+}
+/* .checkbox1{
+    padding: 1rem;
+} */
+
+#reg_btn {
+    display: block;
+    font-size: 1.3rem;
+    width: 50%;
+    padding: .5rem;
+    border: none;
+    background: rgba(255,255,255, 0.06);
+    color: #fff;
+    border-radius: 2rem;
+    margin-left: 7rem;
+}
+
+#text:hover {
+    background:rgba(255,255,255, 0.06);
+    transition: all .5s
+}
+#reg_btn:hover {
+    background:rgba(255,255,255, 0.06);
+    transition: all .5s;
+}
+
+#text:hover {
+    background:rgba(255,255,255, 0.06);
+    transition: all .5s
+}
+#lan_btn:hover {
+    background:rgba(255,255,255, 0.06);
+    transition: all .5s;
+}
+/* #checkbox1{
+    margin-left: 8rem;
+} */
